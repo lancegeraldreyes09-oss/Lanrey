@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int base, height;
+    std::cout << "Enter Base: "<< endl;
+    cin >> base;
+    std::cout << "Enter Height: "<< endl;
+    cin >> height;
+    std::cout << "The Area of the Triangle  is: "<<(base * height)/2.0 << " Square Unit " << endl; 
+    return 0;
+}
